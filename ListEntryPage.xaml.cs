@@ -5,8 +5,10 @@ public partial class ListEntryPage : ContentPage
 {
 	public ListEntryPage()
 	{
-		InitializeComponent();
+        InitializeComponent();
+
 	}
+    
     protected override async void OnAppearing()
     {
         base.OnAppearing();
